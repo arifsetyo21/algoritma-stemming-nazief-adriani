@@ -1,11 +1,11 @@
-# algoritma-stemming-nazief-adriani
+
 
 
 <?php
 $host='localhost';
 $user='root';
 $pass='';
-$database='dbstbi';
-$conn=mysql_connect($host,$user,$pass);
-mysql_select_db($database);
+$database='stemmer';
+$conn=mysqli_connect($host,$user,$pass);
+mysqli_select_db($conn, $database);
 ?>
